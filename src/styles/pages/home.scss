@@ -1,0 +1,566 @@
+.homepage {
+    background: $black;
+    height: 100vh;
+
+    section {
+        background: $black;
+    }
+ 
+
+// Start Second animation
+    .bg-3 {
+       
+        background: $yellowSec;
+        position: absolute;
+        top:10%;
+        z-index: 6;
+        left:0;
+        height: 0;
+       object-fit: cover;
+   
+    margin: 0 25%;
+        @include media("<=900px") {
+          
+            top: 1%;
+            margin:0 15%
+            
+        }
+
+        @include media("<=500px") {
+            margin:0 10%
+
+        }
+        @include media("<=325px") {
+          
+        }
+    
+}
+    .bg-4 {
+        height: 0;
+        background: $yellowSec;
+        position: absolute;
+        bottom: 5%;
+        z-index: 6;
+        left:0;
+        height: 0;
+    margin: 0 25%;
+        @include media("<=900px") {
+          
+            bottom: 1%;
+            margin:0 15%
+            
+        }
+
+        @include media("<=500px") {
+            margin:0 10%
+
+        }
+        @include media("<=325px") {
+          
+        }
+     
+    }
+
+    .line-anim {
+        height: 0;
+        background: $yellowSec;
+        position: absolute;
+        z-index: 6;
+        right:0;
+        width:5px;
+        @include media("<=900px") {
+            width: 5px;
+            right:0;
+
+            
+        }
+        }
+    .text-Div-2{
+        position: absolute;
+        bottom: 0px;
+        color: #ffffff;
+        z-index:4;
+        opacity:0;
+        top: 30%;
+        margin:0;
+        padding:0 20%;
+        height: 20vh;
+        font-size:6em;
+        width: 80%;
+        z-index: 8;
+        @include media("<=1300px") {
+            top: 60%;
+            left: 45%;
+            width: 55%;
+            font-size: 4em;
+        }
+        @include media("<=900px") {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+        color: #fff;
+        padding:0 20%;
+        z-index: 4;
+        opacity: 0;
+        top: 50%;
+        margin: 0;
+        height: 10vh;
+        font-size:4em;
+        }
+        @include media("<=500px") {
+            top: 50%;
+            font-size:2em;
+        }
+        @include media("<=325px") {
+            top: 50%;
+             height: 10vh;
+        }
+        .text-two{
+            p{
+                font-size:17px;
+                display: flex;
+                justify-content: right;
+                @include media("<=900px") {
+                    font-size:20px;
+                }
+                @include media("<=500px") {
+                    font-size:17px;
+                }
+
+                &:before {
+                    position: absolute;
+                    content: "";
+                    width: 50px;
+                    height: 1px;
+                    background: #dfdfdf;
+                    top: 97%;
+                  left: 23em;
+                    @include media("<=1300px") {
+                        width: 56px;
+                        top: 15.3em;
+                        left: 18em;
+                    }
+                    @include media("<=900px") {
+                        top: 92%;
+                        left: 16em;
+                    }
+                    @include media("<=500px") {
+                        top: 90%;
+                    left: 100px;
+                    }
+                }
+            }
+        }
+   
+    }
+
+// End Second animation
+
+
+.main-page{
+    width: 0;
+    height:0;
+    z-index: 6;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    
+
+    .hero {
+        visibility:visible;
+        height: 100vh;
+        .contain{
+          width: 1440px;
+          min-width: 1440px;
+          margin: 0 auto;
+          padding: 80px 120px;
+          z-index:2;
+          @include media(">1300px") {
+              padding: 80px 130px;
+          }
+          @include media("<=900px") {
+            width: 100%;
+            min-width: 0;
+            padding:0;
+          }
+          .hero-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 24px;
+            height: 100vh;
+            @include media("<=900px") {
+                display: block;
+                margin: 0;
+            }
+            .hero-content {
+              width: 50%;
+              position:relative;
+              left:5%;
+              @include media("<=900px") {
+                width: 100%;
+                left:0;
+                height: 48vh;
+              }
+              .hero-content-inner {
+                width: 400px;
+                color: #323232;
+                margin: 0 auto;
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 300;
+                    padding-right: 40px;
+                    width: 82%;
+                    z-index: 8;
+                    margin-bottom: -30px;
+                    position: relative;
+                    bottom: 5em;
+                    opacity: 0;
+    @include media("<=1300px") {
+        font-size: 14px;
+        bottom: 5em;
+        width: 60%;
+        }
+    @include media("<=900px") {
+    font-size: 16px;
+    bottom: 1em;
+    width: 55%;
+    padding: 0 2%;
+    left: 18em;
+        }
+        @include media("<=500px") {
+            font-size: 12px;
+        bottom: -0em;
+        width: 100%;
+        opacity: 0;
+        left: auto;
+        padding: 0 5%;
+            }
+
+            @include media("<=325px") {
+                font-size: 10px;
+                bottom: 6.8em;
+                padding: 0 3%;
+                width: 80%;
+
+            }
+                }
+                .btn-row {
+                    position: relative;
+                    height: 6vh;
+                    background: $yellowSec;
+                    width: 50%;
+                    padding: 3% 15.5%;
+                    opacity: 0;
+                    display: block;
+                    z-index: 15;
+                    @include media("<=1300px") {
+                        padding: 5% 15.5%;
+                    }
+                    @include media("<=900px") {
+                        padding: 3.5% 13.5%;
+                        right: 15px;
+                            width: 40%;
+                            bottom: -25%;
+                            position: absolute;
+                        }
+                        @include media("<=500px") {
+                            padding: 4% 11.5%;
+                            right: 15px;
+                            width: 40%;
+                            bottom: -25%;
+                            position: absolute;
+                            }
+                            @include media("<=325px") {
+                                bottom: -30%;
+                                height: 8vh;
+                            }
+                  &:before {
+                    position: absolute;
+                    content: "";
+                    width: 56px;
+                    height: 1px;
+                    background: #dfdfdf;
+                    top: 50%;
+                    left: -68px;
+                    @include media("<=900px") {
+                  display: none;
+                    }
+                  }
+                  button {
+                    background: none;
+                    border: none;
+                    font-size: 12px;
+                    padding: 0;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 0.7px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    @include media("<=900px") {
+                        font-size: 20px;
+                    }
+                    @include media("<=500px") {
+                        font-size: 12px;
+                    }
+                    &:focus {
+                      outline: none;
+                    }
+                   
+                  }
+                }
+              }
+            }
+            .hero-images {
+              width: 50%;
+              height: 100vh;
+              position: relative;
+              @include media("<=900px") {
+                width: 100%;
+                height: 50vh;
+              }
+              .hero-images-inner {
+                .hero-image {
+                  position: absolute;
+                  overflow: hidden;
+                  &.home-img {
+                    bottom: 7em;
+                    left: -10em;
+                    height: 85%;
+                    width: 0%;
+                    @include media("<=1300px") {
+                        left: -12em;
+                        height:80%;
+                        width: 0%;
+                    }
+                    @include media("<=900px") {
+                        bottom: 0em;
+                        left: 0;
+                        width: 0%;
+                        height: 95%;
+                    }
+                    @include media("<=500px") {
+                        bottom: 0em;
+                        left: 0;
+                        width: 0;
+                        height: 85%;
+                    }
+                    @include media("<=325px") {
+                        bottom: 0em;
+                        left: 0;
+                        width: 0;
+                        height: 90%;
+                    }
+                  }
+
+                  &.home-img-left {
+                 display: none;
+                 @include media("<=900px") {
+                    bottom: 5em;
+                    right: 1em;
+                    width: 45%;
+                    height: 0%;
+                    display: flex;
+            
+                }
+                    @include media("<=500px") {
+                        bottom: 5em;
+                        right: 1em;
+                        width: 40%;
+                        height: 0%;
+                        display: flex;
+                
+                    }
+                    @include media("<=325px") {
+                        bottom: 3em;
+                    }
+                    
+                  }
+                  img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+       
+    .text-Div{
+        position: relative;
+        bottom: 116px;
+        color: #fff;
+        z-index: 7;
+        opacity: 1;
+        top: 20%;
+        margin: 0.5%;
+        height: 40vh;
+        left: 1%;
+@include media("<=1300px") {
+    top: 45%;
+    bottom: 95px;
+}
+@include media("<=900px") {
+    position: relative;
+    width: 100%;
+    /* top: 33%; */
+    left: -12em;
+    bottom: -10em;
+    color: #fff;
+    z-index: 14;
+    /* opacity: 1; */
+    /* top: 80%; */
+    margin: 3.5% 0;
+    height: 40vh;
+// background-image: linear-gradient( 
+// 175deg
+// , transparent, rgb(37 37 37 / 76%), #111 );
+
+}
+@include media("<=500px") {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: -10em;
+    color: #fff;
+    z-index: 14;
+    margin: 3.5% 0;
+    height: 40vh;
+// background-image: linear-gradient( 
+// 175deg
+// , transparent, rgb(37 37 37 / 76%), #111 );
+
+}
+@include media("<=375px") {
+    bottom: -8.75em;
+}
+@include media("<=325px") {
+    top: 50%;
+    bottom: -5em;
+     height: 50vh;
+}
+
+h1{
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:900;
+    letter-spacing:-5px;
+    margin-bottom: 1px;
+    position: relative;
+    width: 120px;
+    height: 600px;
+    @include media("<=1300px") {
+        height: 200px;
+    }
+
+    @include media("<=900px") {
+
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: -1px;
+        margin-bottom: 1px;
+        position: relative;
+        left: 0.5em;
+        width: 250px;
+        height: 100px;
+}
+
+@include media("<=500px") {
+    width: 150px;
+font-size:22px;
+}
+@include media("<=325px") {
+    font-size: 16px;
+    width: 120px;
+}
+
+.text-one{
+
+    bottom: 0%;
+ position:absolute;
+ opacity: 0;
+ @include media("<=900px") {
+    bottom: -4em;
+}
+@include media("<=500px") {
+    opacity: 0;
+    bottom: 0%;
+}
+ label{
+     opacity: 0;
+     color:grey;
+ }
+}
+
+}
+h2{
+position: absolute;
+top:-10px;
+left: -13px;
+z-index: -1;
+color: $yellowSec;
+font-size: 155px;
+font-weight: 900;
+letter-spacing: -5px;
+opacity: 0;
+@include media("<=900px") {
+    font-size: 180px;
+    top:0em;
+    left:-1.8em;
+    opacity: 0;
+}
+@include media("<=500px") {
+    font-size: 115px;
+    top: -50px;
+    left: 0;
+    opacity: 0;
+}
+@include media("<=325px") {
+    font-size: 65px;
+    top: -10px;
+}
+span{
+    font-size: 170px;
+    @include media("<=900px") {
+        font-size: 100px;
+    }
+    @include media("<=325px") {
+        font-size: 80px;
+    }
+}
+}
+}
+
+}
+
+}
+
+
+.bottom-bg{
+    display: none;
+    @include media("<=900px") {
+        height: 6vh;
+        opacity: 0;
+    }
+    @include media("<=500px") {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    z-index: 10;
+background-image: linear-gradient(179deg, transparent, rgb(12 12 12), #111)
+}
+
+}
