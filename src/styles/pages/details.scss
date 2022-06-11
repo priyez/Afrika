@@ -1,0 +1,304 @@
+.details{
+    color:#fff;
+    width:100%;
+    height:100vh;
+    overflow-x: hidden;
+    @include media("<=900px") {
+        height:100vh;
+    }
+    @include media("<=325px") {
+        height:120vh;
+    }
+
+    .details-main{
+    display: flex;
+    flex-direction: row;
+    @include media("<=900px") {
+   display: block;
+    }
+        .details-image{
+            width: 100%;
+            top: 0;
+            position: relative;
+            height: 75vh;
+            padding: 0% 0;
+            .gatsby-image-wrapper-constrained {
+                display: inline-block;
+                vertical-align: top;
+                height: auto;
+                bottom: auto;
+                width: 105%;
+                @include media("<=900px") {
+                width: auto;
+                }
+            }
+    img{
+        width: 100%;
+    object-fit: cover;
+    height: 80vh;
+    object-position: top;
+    object-fit: fill;
+
+    @include media("<=1300px") {
+        width: 100%;
+        height: 75vh;
+        }
+    @include media("<=900px") {
+        width: 100%;
+        object-fit: cover;
+        height: 70vh;
+        padding: 0;
+    }
+    @include media("<=500px") {
+        height: 65vh;
+    }
+    @include media("<=325px") {
+        height: 75vh;
+
+    }
+    }
+
+    @include media("<=900px") {
+    width: 80%;
+    object-fit: cover;
+    height: 70vh;
+    padding: 0;
+}
+@include media("<=500px") {
+    width: 80%;
+    object-fit: cover;
+    height: 65vh;
+    padding: 0;
+}
+@include media("<=325px") {
+    width: 80%;
+    object-fit: cover;
+    height: 75vh;
+    padding: 0;
+}
+        }
+
+        .place-title{
+            width: 40%;
+            position: fixed;
+            right: 15%;
+            top: 20%;
+            opacity: 0;
+            @include media("<=1300px") {
+              
+                right: 5%;
+                top: 25%;
+            }
+
+            @include media("<=900px") {
+                position: relative;
+                right: auto;
+                top: autos;
+             width:20%;
+            }
+
+            h4{
+             
+                font-size: 3em;
+                transform: rotate(270deg);
+               
+                @include media("<=900px") {
+                    transform: rotate(
+                        270deg
+                        );
+                        position: relative;
+                    top: 40%;
+                    height: 10vh;
+                    font-size: 3.8em;
+                    left: -4em;
+                    width: 80vw;
+
+                }
+                @include media("<=500px") {
+                transform: rotate(
+                    270deg
+                    );
+                    position: relative;
+                    top: 35%;
+                    font-size: 1.7em;
+                    left: -4em;
+                    width: 80vw;
+                }
+                    
+            }
+        }
+    }
+.place-text{
+    width: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 0 2.5%;
+    @include media("<=1300px") {
+    bottom: 0em;
+    }
+    @include media("<=900px") {
+        width: 100%;
+        display: block;
+        position: relative;
+        bottom: auto;
+        top: 2em;
+         margin: 0; 
+        padding: 0 4.5%;
+    }
+
+    @include media("<=500px") {
+        top: 0em;
+    }
+    @include media("<=375px") {
+        top: 0em;
+    }
+    @include media("<=325px") {
+        top: 0em;
+    }
+    h4{
+        p{
+            font-size: 10px;
+            margin-bottom: 1%;
+            font-weight: 300;
+        }
+        div{
+            font-size: 40px;
+            @include media("<=900px") {
+                font-size: 40px;
+            }
+            @include media("<=500px") {
+                font-size: 20px;
+            }
+           label {
+            position: relative;
+            content: "";
+            width: 0;
+            height: 1px;
+            background: #dfdfdf;
+            top: -20px;
+            display: flex;
+            margin: 0 12rem;
+            @include media("<=900px") {
+                margin: 0 15rem; 
+                top: -25px;
+            }
+            @include media("<=500px") {
+                top: -10px;
+                    margin: 0 7rem;; 
+            }
+            @include media("<=325px") {
+                top: -10px;
+                    margin: 0 7rem;; 
+            }
+            }
+        }
+    }
+    h5{
+        width: 25%;
+        font-weight: 300;
+        opacity: 0;
+        @include media("<=900px") {
+            width: 60%;
+            font-size: 25px;
+            font-weight: 300;
+            margin-top: 5%;
+         
+        }
+        @include media("<=500px") {
+            opacity: 1;
+            width: 100%;
+            font-size: 12px;
+            margin-top: 10%;
+            font-weight: 300;
+        }
+        @include media("<=325px") {
+            font-size: 10px;
+            margin-top: 27;
+        }
+        span{
+            font-size: 30px;
+            font-weight: 900;
+            color: $yellowSec;
+            @include media("<=900px") {
+                font-size: 25px;
+            }
+            @include media("<=325px") {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+    .text-grid{
+        width: 20%;
+        display: flex;
+        position: absolute;
+        height: 50vh;
+        margin: 0 5%;
+        top: 35%;
+        right: -10px;
+        opacity: 0;
+        font-size: 12px;
+        filter: blur(0.7px);
+        justify-content: space-between;
+        @include media("<=900px") {
+            display: none;
+        }
+
+            }
+
+    circle{
+        fill: transparent;
+        stroke: $yellowSec;
+        stroke-width: 2;
+        
+    }
+  #circle-one{
+      position: fixed;
+      left: 55%;
+      top: 63%;
+      width: 100%;
+      height: 80%;
+      max-height: 80%;
+      max-width: 80%;
+      @include media("<=900px") {
+        position: absolute;
+          top: 41.5%;
+          left: 55%;
+      }
+      @include media("<=500px") {
+          top: 27%;
+      }
+      @include media("<=325px") {
+        top: 25%;
+      }
+  }
+  #circle-two{
+    left: 59%;
+    top: 70%;
+      position: fixed;
+      width: 100%;
+      height: 80%;
+      max-height: 80%;
+      max-width: 80%;
+      @include media("<=900px") {
+        position: absolute;
+        left: 60%;
+          top: 45%;
+      }
+      @include media("<=500px") {
+        left: 60.5%;
+        top: 29.8%;
+      }
+      @include media("<=325px") {
+          top: 28%;
+      }
+  }
+}
+ 
+
+
+
+  
+  
