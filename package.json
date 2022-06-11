@@ -1,0 +1,36 @@
+{
+  "name": "Afrika",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Showcasing the beauty of africa.",
+  "author": "Sopiriye jamabo",
+  "keywords": [
+    "Afrika"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "gatsby": "^4.15.2",
+    "gatsby-plugin-image": "^2.15.1",
+    "gatsby-plugin-manifest": "^4.16.0",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-sass": "^5.15.1",
+    "gatsby-plugin-sharp": "^4.15.1",
+    "gatsby-remark-images": "^6.15.1",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-transformer-json": "^4.15.0",
+    "gatsby-transformer-sharp": "^4.15.1",
+    "gsap": "^3.10.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.52.1"
+  }
+}
