@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "victoria-fall",
+    "place": "Victoria falls",
+    "country": "Zimbabwe",
+    "landmark": "12°C, Wind E at 3 km/h, 67% Humidity",
+    "info": "Victoria Falls is a town in western Zimbabwe and a gateway to the massive waterfall of the same name. Here, the Zambezi River plummets over a cliff and into the Boiling Pot before flowing through a series of gorges. The Devil’s Pool, a natural infinity pool, is on the edge of a sheer drop. Spanning the river is 1905 Victoria Falls Bridge. The surrounding Zambezi National Park is home to white rhinos and elephants.",
+    "desc": "Victoria falls is one of the world's seven natural wonders.",
+    "thumb": "../src/images/victoriafall/vf5.jpg"
+  },
+  {
+    "slug": "m-kilimanjaro",
+    "place": "Mount Kilimanjaro",
+    "country": "Tanzania",
+    "landmark": "Above the sealeve & 19,341 ft. (5895 m)",
+    "info": "Mount Kilimanjaro is a dormant volcano in Tanzania. It has three volcanic cones: Kibo, Mawenzi, and Shira. It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world: 5,895 metres above sea level and about 4,900 metres above its plateau base.",
+    "desc": "Mount Kilimanjaro, or just “Kili” is the tallest mountain on the African continent and the highest free-standing mountain in the world.",
+    "thumb": "../src/images/mountkilimanjaro/mk0.jpg"
+  },
+  {
+    "slug": "maasai-mara-national-reserve",
+    "place": " Maasai Mara Reserve",
+    "country": "Kenya",
+    "landmark": "Wild Life preservation",
+    "info": "Maasai Mara National Reserve is an area of preserved savannah wilderness in southwestern Kenya, along the Tanzanian border. Its animals include lions, cheetahs, elephants, zebras and hippos. Wildebeest traverse its plains during their annual migration. The landscape has grassy plains and rolling hills, and is crossed by the Mara and Talek rivers.",
+    "desc": "Maasai Mara Reserve is widely regarded to be the cradle of mankind as well as the Africa's Greatest Wildlife Reserve.",
+    "thumb": "../src/images/National reserve/nr2.jpg"
+  },
+  {
+    "slug": "pyramid-of-giza",
+    "place": "Pyramid of Giza",
+    "country": "Egypt",
+    "landmark": "One of the seven wonders of the world",
+    "info": "The Great Pyramid of Giza[a] is the largest Egyptian pyramid and tomb of Fourth Dynasty pharaoh Khufu. Built in the 26th century BC during a period of around 27 years,[3] it is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact. As part of the Giza pyramid complex, it borders present-day Giza in Greater Cairo, Egypt.",
+    "desc": "The pyramids of Giza were royal tombs built for three different pharaohs. .",
+    "thumb": "../src/images/Pyramid of Giza/pg1.jpg"
+  },
+  {
+    "slug": "okavango-delta",
+    "place": "Okavango Delta",
+    "country": "Bostwanna",
+    "landmark": "One of Africa's last great natural sanctuaries",
+    "info": "The Okavango Delta is a vast inland river delta in northern Botswana. It's known for its sprawling grassy plains, which flood seasonally, becoming a lush animal habitat.",
+    "desc": "The Okavango Delta in Botswana is one of the world's largest inland deltas.",
+    "thumb": "../src/images/Okavango Delta/okd.jpg"
+  }
+]
+
+
